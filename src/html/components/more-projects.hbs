@@ -1,0 +1,18 @@
+<div class="row more-projects text-center">
+  <hr>
+  <div class="col-md-12 details">
+    <div class="title text-uppercase">{{title}}</div>
+    <div class="subline">{{subline}}</div>
+  </div>
+  <div class="col-md-12 projects">
+    {{#each this.projects}}
+    <div class="col-sm-6 col-md-3">
+      <img alt="{{title}}" src="{{imgSrc}}">
+      <div class="project-details">
+        <div class="title text-uppercase">{{title}}</div>
+        <div class="subline">{{subline}}</div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>

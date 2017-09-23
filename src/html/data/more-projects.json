@@ -1,0 +1,26 @@
+{
+  "title": "More Projects",
+  "subline": "Lorem ipsum dolor sit amet",
+  "projects": [
+    {
+      "title": "Project Name",
+      "subline": "Lorem ipsum dolor sit amet",
+      "imgSrc": ""
+    },
+    {
+      "title": "Project Name",
+      "subline": "Lorem ipsum dolor sit amet",
+      "imgSrc": ""
+    },
+    {
+      "title": "Project Name",
+      "subline": "Lorem ipsum dolor sit amet",
+      "imgSrc": ""
+    },
+    {
+      "title": "Project Name",
+      "subline": "Lorem ipsum dolor sit amet",
+      "imgSrc": ""
+    }
+  ]
+}
