@@ -1,0 +1,18 @@
+{
+  "isCarousel": true,
+  "bannerImgSrc":"./media/img/banner-large.png",//This filed is used when single banner without carousel is required.
+  "carouselData": [
+    {
+      "imgSrc": "./media/img/banner-large.png",
+      "isActive": true
+    },
+    {
+      "imgSrc": "./media/img/banner-large.png",
+      "isActive": false
+    },
+    {
+      "imgSrc": "./media/img/banner-large.png",
+      "isActive": false
+    }
+  ]
+}
