@@ -25,11 +25,20 @@ module.exports = function(grunt) {
         dest: "dist/css",
         ext: ".css"
       }
+    },
+    copy: {
+      main: {
+        expand: true,
+        cwd: "src/media",
+        src: '**',
+        dest: 'dist/media',
+      },
     }
   });
 
   grunt.loadNpmTasks('grunt-assemble');
   grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
-  grunt.registerTask('default', ['assemble', 'less']);
+  grunt.registerTask('default', ['assemble', 'less', 'copy']);
 };
