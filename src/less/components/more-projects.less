@@ -12,32 +12,43 @@
     .title {
       font-size: 200%;
       letter-spacing: 5px;
-      margin-top:50px;
+      margin-top: 50px;
     }
     .subline {
       font-size: 150%;
     }
   }
   .projects {
-    margin-top:60px;
+    margin-top: 60px;
     > div {
-      margin-bottom:20px;
+      margin-bottom: 40px;
       img {
         width: 100%;
         height: 150px;
         background-color: @light-grey;
         display: inline-block;
-        margin-bottom:10px;
+        margin-bottom: 10px;
         max-width: 235px;
       }
       .subline {
-        margin-top:10px;
-        font-size: 90%;
+        margin-top: 10px;
       }
-      .link{
-        text-decoration:none;
-        &:hover{
+      .link {
+        text-decoration: none;
+        &:hover {
           text-decoration: none;
+        }
+      }
+      @media @small-screen {
+        img {
+          height: 275px;
+          max-width: 430px;
+        }
+        .title {
+          font-size: 130%;
+        }
+        .subline {
+          font-size: 120%;
         }
       }
     }
