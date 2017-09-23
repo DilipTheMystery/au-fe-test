@@ -6,12 +6,15 @@
   </div>
   <div class="col-md-12 projects">
     {{#each this.projects}}
+    
     <div class="col-sm-6 col-md-3">
-      <img alt="{{title}}" src="{{imgSrc}}">
-      <div class="project-details">
-        <div class="title text-uppercase">{{title}}</div>
-        <div class="subline">{{subline}}</div>
-      </div>
+      <a href="{{url}}" class="link">
+        <img alt="{{title}}" src="{{imgSrc}}">
+        <div class="project-details">
+          <div class="title text-uppercase">{{title}}</div>
+          <div class="subline">{{subline}}</div>
+        </div>
+      </a>
     </div>
     {{/each}}
   </div>

@@ -5,22 +5,26 @@
     {
       "title": "Project Name",
       "subline": "Lorem ipsum dolor sit amet",
-      "imgSrc": ""
+      "imgSrc": "./media/img/more-project.png",
+      "url":"/"
     },
     {
       "title": "Project Name",
       "subline": "Lorem ipsum dolor sit amet",
-      "imgSrc": ""
+      "imgSrc": "./media/img/more-project.png",
+      "url":"/"
     },
     {
       "title": "Project Name",
       "subline": "Lorem ipsum dolor sit amet",
-      "imgSrc": ""
+      "imgSrc": "./media/img/more-project.png",
+      "url":"/"
     },
     {
       "title": "Project Name",
       "subline": "Lorem ipsum dolor sit amet",
-      "imgSrc": ""
+      "imgSrc": "./media/img/more-project.png",
+      "url":"/"
     }
   ]
 }
