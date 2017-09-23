@@ -11,6 +11,7 @@ As per given Visual Mock, I had to create a page which gives details about Proje
  - node.js
  - express
  - Assemble
+ - Handlebars
 
 # Browser Used for Dev
   - Chrome
