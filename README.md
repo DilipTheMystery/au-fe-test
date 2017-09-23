@@ -11,6 +11,10 @@ As per given Visual Mock, I had to create a page which gives details about Proje
  - node.js
  - express
  - Assemble
+
+# Browser Used for Dev
+  - Chrome
+  - Safari on iOS
  
 # The Approach
 Considering the page as static one, I have tried to break down the page into smaller indepedant components which can be reused across website. The components I sortlisted are
